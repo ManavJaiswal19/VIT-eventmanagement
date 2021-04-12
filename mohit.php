@@ -32,7 +32,7 @@ session_start();
 </table></center></div><br>
 
 <div class="mode">
-<h1><u>Mode Of Payment</u></h1>
+<h1><u>Mode Of Payment:</u></h1>
 <div class="credit">
 <p><strong>1. Credit Card</strong></p><br>
 <button onclick="window.open('paymc.php','_blank');">Proceed to pay</button>
