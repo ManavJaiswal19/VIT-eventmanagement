@@ -1,0 +1,27 @@
+body
+{
+padding:15px;
+background-color:beige;
+border:20px double black;
+}
+h1
+{
+font-size:70px;
+font-family:helvetica;
+color:brown;
+text-shadow:4px 4px red;
+}
+.gal
+{
+margin:auto;
+}
+.gal img
+{
+height:150px;
+width:200px;
+}
+.gal img:hover
+{
+z-index:2;
+transform:scale(2);
+}

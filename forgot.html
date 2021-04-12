@@ -1,0 +1,32 @@
+<html>
+<head><title>Forgot password</title>
+<link rel="stylesheet" type="text/css" href="css/newuserstyles.css">
+</head>
+
+<body>
+<h1>VIT CHENNAI EVENTS</h1>
+
+<fieldset style="color:white;margin-top:120px;">
+<legend align="left" style="color:white;font-size:30px;">Recover account</legend>
+<form method="post" action="recover.php">
+<table>
+<tr>
+<th><label>Register no:</label></th>
+<td><input type="text" name="rno" placeholder="Enter your Register No" pattern="[1-9]{2}[A-Z]{3}[0-9]{4}" required></td>
+</tr>
+<tr>
+<th><label>Email ID:</label></th>
+<td><input type="text" name="eid" placeholder="Enter your email" pattern="^\w+([\.-]?\w+)+@([a-zA-z]+\.[a-zA-z]{2,})+(\.[a-zA-Z]{2,})*$" required></td>
+</tr>
+<tr>
+<th><label>DOB:</label></th>
+<td><input type="date" name="dob" required></td>
+</tr>
+</table>
+<br><center><input type="submit" value="Proceed" style="cursor:pointer;">
+<input type="reset" style="cursor:pointer;"></center>
+</form>
+</fieldset>
+
+</body>
+</html>

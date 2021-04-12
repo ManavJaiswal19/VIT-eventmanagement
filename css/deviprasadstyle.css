@@ -1,0 +1,71 @@
+body
+{
+background-image:url("bg2.jpg");padding:15px;
+ background-repeat:no-repeat; background-size:cover
+}
+.tab h1 
+{
+font-size:40pt
+}
+.tab table
+{
+width:1000px; height:210px; background-color:black;
+text-align:center; font-size:25pt; font-weight:bold;
+box-shadow:10px 8px 18px 0 black
+}
+.tab table tr th
+{
+color:white;padding:10px
+}
+.tab table tr td
+{
+color:red;padding:10px
+}
+.mode
+{
+background-color:darkred; padding:10px;
+box-shadow:10px 8px 18px 0 black
+}
+.mode h1
+{
+font-size:25pt;text-align:center ;color:white
+}
+.mode .credit
+{
+margin-top:-5pt
+}
+.mode .credit p
+{
+font-size:16pt;color:white
+}
+.mode .credit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+.mode .debit
+{
+margin-left:410pt; margin-top:-100pt; color:white
+}
+.mode .debit p
+{
+font-size:16pt; 
+}
+.mode .debit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold
+}
+.mode .wallet
+{
+float:right; margin-top:-94pt
+}
+.mode .wallet p
+{
+font-size:16pt;color:white 
+}
+.mode .wallet button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}

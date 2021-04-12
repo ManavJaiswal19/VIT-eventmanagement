@@ -1,0 +1,24 @@
+body{background-image:url("bg2.jpg");padding:12px;
+ background-repeat:no-repeat; background-size:cover}
+p{color:navy; padding:7px; font-size:18pt; font-weight:bold; 
+background-color:peachpuff; box-shadow:8px 5px 16px 0 black}
+.content1 ul li{color:maroon; font-size:18pt; font-weight:bold}
+.content1 ul{box-shadow:10px 8px 18px 0 black;background-color:aquamarine}
+.content2 ul li{color:teal; font-size:18pt; font-weight:bold}
+.content2 ul{box-shadow:10px 8px 18px 0 black;background-color:pink}
+.img1 img{width:500pt; height:200pt;
+filter: drop-shadow(13px 13px 10px tomato);}
+.img2 img{width:300pt; height:200pt;margin-left:550pt;
+ margin-top:-210pt; filter: drop-shadow(13px 13px 10px tomato);}
+.glow p a{animation:effect 2s linear infinite; color:transparent; font-size:30pt}
+ @keyframes effect{ 
+            0% { 
+                background: linear-gradient( 
+                        #008000, #00FF00); 
+                -webkit-background-clip: text; 
+            } 
+  
+            100% { 
+                background: linear-gradient( 
+                        #3CE7D7, #000FFF); 
+                -webkit-background-clip: text; 

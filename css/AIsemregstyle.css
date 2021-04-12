@@ -1,0 +1,276 @@
+body
+{
+background-image:url("bg2.jpg");padding:12px;
+ background-repeat:no-repeat; background-size:cover
+}
+h1
+{
+font-size:40pt
+}
+.tab table
+{
+width:1000px; height:210px; background-color:black;
+text-align:center; font-size:25pt; font-weight:bold;
+box-shadow:10px 8px 18px 0 black; 
+}
+.tab table tr
+{
+padding:10px
+}
+.tab table tr th
+{
+color:white;padding:10px
+}
+.tab table tr td
+{
+color:red;padding:10px
+}
+.mode
+{
+background-color:darkred; padding:10px;
+box-shadow:10px 8px 18px 0 black
+}
+.mode h1
+{
+font-size:25pt;text-align:center ;color:white
+}
+.mode .credit
+{
+margin-top:-5pt
+}
+.mode .credit p
+{
+font-size:16pt;color:white
+}
+.mode .credit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+.mode .debit
+{
+margin-left:410pt; margin-top:-100pt; color:white
+}
+.mode .debit p
+{
+font-size:16pt; 
+}
+.mode .debit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold
+}
+.mode .wallet
+{
+float:right; margin-top:-94pt
+}
+.mode .wallet p
+{
+font-size:16pt;color:white 
+}
+.mode .wallet button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+
+.tab1 table
+{
+width:1000px; height:210px; background-color:black;
+text-align:center; font-size:25pt; font-weight:bold;
+box-shadow:10px 8px 18px 0 black; 
+}
+.tab1 table tr
+{
+padding:10px
+}
+.tab1 table tr th
+{
+color:white;padding:10px
+}
+.tab1 table tr td
+{
+color:red;padding:10px
+}
+.mode1
+{
+background-color:darkred; padding:10px;
+box-shadow:10px 8px 18px 0 black
+}
+.mode1 h1
+{
+font-size:25pt;text-align:center ;color:white
+}
+.mode1 .credit
+{
+margin-top:-5pt
+}
+.mode1 .credit p
+{
+font-size:16pt;color:white
+}
+.mode1 .credit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+.mode1 .debit
+{
+margin-left:410pt; margin-top:-100pt; color:white
+}
+.mode1 .debit p
+{
+font-size:16pt; 
+}
+.mode1 .debit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold
+}
+.mode1 .wallet
+{
+float:right; margin-top:-94pt
+}
+.mode1 .wallet p
+{
+font-size:16pt;color:white 
+}
+.mode1 .wallet button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+
+.tab2 table
+{
+width:1000px; height:210px; background-color:black;
+text-align:center; font-size:25pt; font-weight:bold;
+box-shadow:10px 8px 18px 0 black; 
+}
+.tab2 table tr
+{
+padding:10px
+}
+.tab2 table tr th
+{
+color:white;padding:10px
+}
+.tab2 table tr td
+{
+color:red;padding:10px
+}
+.mode2
+{
+background-color:darkred; padding:10px;
+box-shadow:10px 8px 18px 0 black
+}
+.mode2 h1
+{
+font-size:25pt;text-align:center ;color:white
+}
+.mode2 .credit
+{
+margin-top:-5pt
+}
+.mode2 .credit p
+{
+font-size:16pt;color:white
+}
+.mode2 .credit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+.mode2 .debit
+{
+margin-left:410pt; margin-top:-100pt; color:white
+}
+.mode2 .debit p
+{
+font-size:16pt; 
+}
+.mode2 .debit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold
+}
+.mode2 .wallet
+{
+float:right; margin-top:-94pt
+}
+.mode2 .wallet p
+{
+font-size:16pt;color:white 
+}
+.mode2 .wallet button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+
+.tab3 table
+{
+width:1000px; height:210px; background-color:black;
+text-align:center; font-size:25pt; font-weight:bold;
+box-shadow:10px 8px 18px 0 black; 
+}
+.tab3 table tr
+{
+padding:10px
+}
+.tab3 table tr th
+{
+color:white;padding:10px
+}
+.tab3 table tr td
+{
+color:red;padding:10px
+}
+.mode3
+{
+background-color:darkred; padding:10px;
+box-shadow:10px 8px 18px 0 black
+}
+.mode3 h1
+{
+font-size:25pt;text-align:center ;color:white
+}
+.mode3 .credit
+{
+margin-top:-5pt
+}
+.mode3 .credit p
+{
+font-size:16pt;color:white
+}
+.mode3 .credit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}
+.mode3 .debit
+{
+margin-left:410pt; margin-top:-100pt; color:white
+}
+.mode3 .debit p
+{
+font-size:16pt; 
+}
+.mode3 .debit button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold
+}
+.mode3 .wallet
+{
+float:right; margin-top:-94pt
+}
+.mode3 .wallet p
+{
+font-size:16pt;color:white 
+}
+.mode3 .wallet button
+{
+width:100pt;height:30pt;cursor:pointer;
+font-size:12.1pt;color:blue; font-weight:bold;
+}

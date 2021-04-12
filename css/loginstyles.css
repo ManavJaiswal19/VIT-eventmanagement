@@ -1,0 +1,33 @@
+body
+{
+background-color:ivory;
+background-image:url("img4.jpg");
+background-size:320px 250px;
+background-position:37% 70%;
+border:5px double white;
+}
+h1
+{
+padding:10px;
+font-family:arial;
+font-size:50px;
+text-align:center;
+background-color:black;
+color:white;
+font-weight:50%;
+}
+h2
+{
+font-size:35px;
+background-color:black;
+color:white;
+}
+fieldset
+{
+padding:20px;
+float:right;
+margin-right:110px;
+margin-top:40px;
+background-color:black;
+text-align:center;
+}

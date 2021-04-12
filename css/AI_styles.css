@@ -1,0 +1,25 @@
+body{padding:12px; background-image:url("bg4.jpg");
+background-repeat:no-repeat; background-size:cover}
+.content1 p{background-color:red; color:white; padding:7px; font-size:18pt;
+box-shadow:8px 6px 16px 0 lightblue}
+.content1 h1 u{background-color:green; padding:7px; width:300px;
+box-shadow:8px 6px 16px 0 lightblue}
+.content1{color:white}
+.content2 ul{background-color:purple; color:white; font-size:18pt;
+box-shadow:8px 6px 16px 0 lightblue}
+.content2 h2 u{background-color:green;
+box-shadow:8px 6px 16px 0 lightblue; padding:10px}
+.content2{color:white}
+.glow p a{animation:effect 2s linear infinite; color:transparent; 
+font-size:40pt; font-weight:bold}
+ @keyframes effect{ 
+            0% { 
+                background: linear-gradient( 
+                        #008000, #00FF00); 
+                -webkit-background-clip: text; 
+            } 
+  
+            100% { 
+                background: linear-gradient( 
+                        #3CE7D7, #000FFF); 
+                -webkit-background-clip: text;} 

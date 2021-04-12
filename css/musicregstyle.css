@@ -1,0 +1,28 @@
+body
+{
+background-image:url("bg2.jpg");padding:12px;
+ background-repeat:no-repeat; background-size:cover
+}
+h1
+{
+font-size:40pt
+}
+.tab table
+{
+width:800px; height:210px; background-color:black;
+text-align:center; font-size:25pt; font-weight:bold;
+box-shadow:10px 8px 18px 0 black
+}
+.tab table tr th
+{
+color:white
+}
+.tab table tr td
+{
+color:red
+}
+button
+{
+width:150pt;height:50pt;cursor:pointer;
+font-size:15pt;color:blue; font-weight:bold
+}

@@ -1,0 +1,24 @@
+body{background-image:url("music.jfif"); background-repeat:no-repeat;
+background-size:cover; padding:12px}
+.content1 h1{color:white}
+.content1 p{font-size:18pt; color:white}
+.content1 h2{color:white}
+.table table{color:white; font-size:18pt; text-align:center;
+background-color:black; margin-left:50pt; width:300pt;height:120pt;
+filter: drop-shadow(13px 13px 10px lightblue)}
+img{width:250pt;height:150pt;margin-left:550pt; margin-top:-270pt;
+filter: drop-shadow(13px 13px 8px lightblue)}
+.glow p a{animation:effect 2s linear infinite; color:transparent;
+ font-size:30pt; background-color:white}
+ @keyframes effect{ 
+            0% { 
+                background: linear-gradient( 
+                        maroon, red); 
+                -webkit-background-clip: text; 
+            } 
+  
+            100% { 
+                background: linear-gradient( 
+                        #3CE7D7, #000FFF); 
+                -webkit-background-clip: text;} 
+

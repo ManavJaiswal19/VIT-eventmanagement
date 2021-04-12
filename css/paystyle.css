@@ -1,0 +1,32 @@
+body
+{
+padding:10px;background-image:url("bg2.jpg");
+background-repeat:no-repeat; background-size:cover
+}
+.tab
+{
+background-color:darkred;
+box-shadow:10px 8px 18px 0 black;
+margin-left:300px;
+margin-right:300px
+}
+.tab h1
+{color:white;
+}
+.tab table
+{
+background-color:black;
+text-align:center;
+color:white;
+font-size:17pt;
+width:250pt;
+height:300pt
+}
+input[type=submit]
+{
+width:100pt;
+height:50pt;
+cursor:pointer;
+font-size:16pt;
+color:blue
+}

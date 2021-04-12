@@ -1,0 +1,76 @@
+<html>
+<head><title>Campus Events</title>
+<link rel="stylesheet" type="text/css" href="css/newuserstyles.css">
+<script>
+function confirm()
+{
+var a=document.forms[0].school.value;
+if(a=="Select")
+  {
+    alert('Select your School');
+    return false;
+
+  }
+  else
+  {
+    alert("Account created.");
+    return true;
+  }
+
+}
+</script>
+</head>
+
+<body>
+<h1>VIT CHENNAI EVENTS</h1>
+
+<fieldset style="color:white;">
+<legend align="left" style="color:white;font-size:30px;">Register</legend>
+<form onsubmit="return confirm();" method="post" action="newuser.php">
+<table>
+<tr>
+<th><label>Name:</label></th>
+<td><input type="text" name="name" placeholder="Enter your Full Name" pattern="[A-Za-z]+\s*[A-Za-z]*" required></td>
+</tr>
+<tr>
+<th><label>Register no:</label></th>
+<td><input type="text" name="rno" placeholder="Enter your Register No" pattern="[1-9]{2}[A-Z]{3}[0-9]{4}" required></td>
+</tr>
+<tr>
+<th><label>New Password:</label></th>
+<td><input type="password" name="pwd" placeholder="Enter new password" pattern=".{8,}" required></td>
+</tr>
+<tr><td colspan="2" style="font-size:13px;color:magenta;">Password should contain atleast 8 characters</td></tr>
+<tr>
+<th><label>DOB:</label></th>
+<td><input type="date" name="dob" max="2003-12-31" required></td>
+</tr>
+<tr>
+<th><label>Email ID:</label></th>
+<td><input type="text" name="eid" placeholder="Enter your email" pattern="^\w+([\.-]?\w+)+@([a-zA-z]+\.[a-zA-z]{2,})+(\.[a-zA-Z]{2,})*$" required></td>
+</tr>
+<tr>
+<th><label>Phone No:</label></th>
+<td><input type="tel" name="phno" placeholder="Enter your Phone No" pattern="[1-9]{1}[0-9]{9}" required></td>
+</tr>
+<tr>
+<th><label>School:</label></th>
+<td><select name="school">
+<option selected="selected">Select</option>
+<option>SCOPE</option>
+<option>SMEC</option>
+<option>SCE</option>
+<option>SENSE</option>
+<option>VFIT</option>
+<option>SELECT</option>
+<option>VITSOL</option>
+</td>
+</tr>
+</table>
+<br><center><input type="submit" style="cursor:pointer;">
+<input type="reset" style="cursor:pointer;"></center>
+</form>
+</fieldset>
+
+</body>
+</html>
